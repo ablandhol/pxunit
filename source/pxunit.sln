@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.pxunit.console", "test.pxunit.console\test.pxunit.console.csproj", "{F3BB8039-81EF-429D-8BF2-C9ED580F3248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pxunit.console", "pxunit.console\pxunit.console.csproj", "{187942D3-1AE9-4E5D-8192-921FC7AADC20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{187942D3-1AE9-4E5D-8192-921FC7AADC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187942D3-1AE9-4E5D-8192-921FC7AADC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187942D3-1AE9-4E5D-8192-921FC7AADC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187942D3-1AE9-4E5D-8192-921FC7AADC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BB8039-81EF-429D-8BF2-C9ED580F3248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BB8039-81EF-429D-8BF2-C9ED580F3248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BB8039-81EF-429D-8BF2-C9ED580F3248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BB8039-81EF-429D-8BF2-C9ED580F3248}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

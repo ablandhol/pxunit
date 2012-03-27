@@ -60,6 +60,13 @@
     <Compile Include="GoogleTests.cs" />
     <Compile Include="ParallelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestMethodBatcherTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\pxunit.console\pxunit.console.csproj">
+      <Project>{187942d3-1ae9-4e5d-8192-921fc7aadc20}</Project>
+      <Name>pxunit.console</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -50,8 +50,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ParallelXunitCommandLine.cs" />
+    <Compile Include="ProcessWaiter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestMethodBatcher.cs" />
     <Compile Include="ThreadedRunnerCallback.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

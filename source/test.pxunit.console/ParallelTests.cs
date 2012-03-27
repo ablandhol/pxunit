@@ -29,7 +29,7 @@ namespace test.pxunit.console
         [Fact]
         public void Sleep_5000ms()
         {
-            Thread.Sleep(5000);
+            Thread.Sleep(500);
 
             Assert.True(true);
         }
